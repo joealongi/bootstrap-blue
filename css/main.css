@@ -1,0 +1,355 @@
+/* ==========================================================================
+   Blue | Responsive Scrolling Bootstrap Template Styles
+   ========================================================================== */
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Typography */
+
+h2 {
+  color: #000;
+  font-size: 26px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  margin: 30px 0 70px;
+}
+h2::after {
+  content: "";
+  width: 100px;
+  position: absolute;
+  margin: 0 auto;
+  height: 4px;
+  border-radius: 1px;
+  background: #1c47e3;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+}
+h4 {
+  font-weight: 600;
+}
+
+/* Scrolling Nav */
+
+header {
+  padding: 156px 0 100px;
+}
+section {
+  padding: 150px 0;
+}
+.navbar {
+  background: #1c47e3;
+}
+.navbar a {
+  color: #fff;
+}
+.navbar-brand img {
+  width: 150px;
+}
+.navbar-toggler {
+  margin: 20px;
+}
+.nav-item {
+  text-align: center;
+}
+
+/* Video Header */
+
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+header .container {
+  position: relative;
+  z-index: 2;
+}
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 1;
+}
+.header-button {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 24px;
+  margin: 48px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.header-button:hover,
+.header-button:focus {
+  color: #fff;
+  border: 2px solid #1c47e3;
+  background: #1c47e3;
+  text-decoration: none;
+}
+
+/* =======    About    ======= */
+
+#about img {
+  border: 4px solid #1c47e3;
+}
+#about a {
+  background-color: #1c47e3;
+}
+ul.social {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+ul.social li {
+  display: inline;
+}
+.social li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+}
+.social li i {
+  color: #fff;
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+/* =======    Services    ======= */
+
+#services a {
+  text-decoration: none;
+  color: #0062cc;
+  border-bottom: 2px solid #0062cc;
+}
+.box {
+  padding: 60px 0px;
+}
+.boxin {
+  background: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e6e6e6;
+  padding: 60px;
+  margin: 15px;
+}
+.flex {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+i {
+  color: #1c47e3;
+  padding: 10px;
+}
+
+/* =======    Hire    ======= */
+
+#hire {
+  background: #1c47e3;
+  color: #fff;
+  text-align: center;
+}
+.hire-button {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 24px;
+  margin: 48px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.hire-button:hover,
+.hire-button:focus {
+  color: #1c47e3;
+  border: 2px solid #fff;
+  background: #fff;
+  text-decoration: none;
+}
+
+/* =======    Testimonials    ======= */
+
+#testimonials {
+  width: 50%;
+  margin: auto;
+  padding: 100px;
+}
+#testimonials h4 {
+  color: #1c47e3;
+}
+#testimonials .carousel-control-prev {
+  padding-bottom: 150px;
+}
+#testimonials .carousel-control-next {
+  padding-bottom: 150px;
+}
+
+@media only screen and (max-width: 800px) {
+  #testimonials {
+    width: 100%;
+    margin: auto;
+  }
+  #testimonials .carousel-control-prev {
+    padding-bottom: 250px;
+  }
+  #testimonials .carousel-control-next {
+    padding-bottom: 250px;
+  }
+}
+
+/* =======    Portfolio    ======= */
+
+.filters {
+  margin: 0 auto;
+}
+.filter-button {
+  font-size: 18px;
+  text-align: center;
+  color: #1c47e3;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  border-radius: 0;
+}
+.filter-button:hover {
+  font-size: 18px;
+  border: 1px solid #1c47e3;
+  text-align: center;
+  color: #fff;
+  background-color: #1c47e3;
+}
+.filter-button:active,
+.filter-button:focus {
+  background-color: #1c47e3;
+  color: #fff;
+}
+.portfolio {
+  margin-bottom: 30px;
+}
+.port {
+  width: 100%;
+}
+.img-box:hover > .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.2s ease;
+}
+.text {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #1c47e3;
+  padding: 10px 20px;
+}
+.portfolio a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* =======    Contact   ======= */
+
+.form-control {
+  border-radius: 0;
+  padding: 10px;
+}
+.contact-button {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 24px;
+  margin: 48px;
+  border: 2px solid #1c47e3;
+  color: #1c47e3;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 0;
+}
+.contact-button:hover,
+.contact-button:focus {
+  color: #fff;
+  border: 2px solid #1c47e3;
+  background: #1c47e3;
+  text-decoration: none;
+}
+#message {
+  min-height: 145px;
+}
+
+/* =======    Footer   ======= */
+
+footer {
+  background: #1c47e3;
+}
+footer a,
+footer a:hover,
+footer a:active,
+footer a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* =======    Selection   ======= */
+
+::selection {
+  background: rgba(28, 71, 227, 0.25);
+}
+::-moz-selection {
+  background: rgba(28, 71, 227, 0.25);
+}
+.btn.focus,
+.btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(28, 71, 227, 0.25);
+}
