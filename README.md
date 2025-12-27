@@ -8,7 +8,7 @@ Code template for you to download, edit, and shape into your personal web experi
 
 ## Preview
 
-[![Blue Preview](https://heyitsjoealongi.github.io/bootstrap-blue/img/blue_-_responsive_scrolling_bootstrap_template.jpg)](https://heyitsjoealongi.github.io/bootstrap-blue/)
+[![Blue Preview](https://joealongi.github.io/bootstrap-blue/img/blue_-_responsive_scrolling_bootstrap_template.jpg)](https://joealongi.github.io/bootstrap-blue/)
 
 ## Contents
 
@@ -23,10 +23,10 @@ Code template for you to download, edit, and shape into your personal web experi
 
 Blue is a portrait of self, simply expounding upon previous work, advancing digital communication with portfolio elements, and links to additional examples.
 
-- Website: [heyitsjoealongi.com](https://heyitsjoealongi.com/)
-- Twitter: [@heyitsjoealongi](https://twitter.com/heyitsjoealongi/)
-- GitHub: [@heyitsjoealongi](https://github.com/heyitsjoealongi/)
-- LinkedIn: [@heyitsjoealongi](https://www.linkedin.com/in/heyitsjoealongi/)
+- Website: [joealongi.dev](https://joealongi.dev/)
+- X: [@joealongi](https://x.com/joealongi)
+- GitHub: [@joealongi](https://github.com/joealongi/)
+- LinkedIn: [@joe-alongi](https://www.linkedin.com/in/joe-alongi/)
 
 #### Solution:
 
@@ -56,14 +56,14 @@ This project runs on Bootstrap and jQuery, minifying the existing Bootstrap Java
 
 Bringing your hypertext to the web has never been easier with [GitHub Pages](https://pages.github.com/), you can even configure the deploy to push to your custom domain with [Netlify](https://www.netlify.com/) which will provide you with configuration tools, a free SSL certificate, and variations for handling dynamic functions.
 
-- **Option 1.)** [Download the latest version of this template from GitHub](https://github.com/heyitsjoealongi/bootstrap-blue/archive/master.zip)
+- **Option 1.)** [Download the latest version of this template from GitHub](https://github.com/joealongi/bootstrap-blue/archive/master.zip)
 - **Option 2.)** Clone this repository
 
 ```
-                  git clone https://github.com/heyitsjoealongi/blue.git
+                  git clone https://github.com/joealongi/blue.git
 ```
 
-- **Option 3.)** [Fork, Clone, or Download via GitHub Desktop](x-github-client://openRepo/https://github.com/heyitsjoealongi/bootstrap-blue/)
+- **Option 3.)** [Fork, Clone, or Download via GitHub Desktop](x-github-client://openRepo/https://github.com/joealongi/bootstrap-blue/)
 
 #### Basic Usage
 
@@ -77,7 +77,7 @@ Decide on key elements of your `#portfolio` and replace the imagery in the secti
 
 ##### Bugs and Issues
 
-Having an issue with the template? Report bugs & issues with Blue on GitHub via [Issues](https://github.com/heyitsjoealongi/bootstrap-blue/issues).
+Having an issue with the template? Report bugs & issues with Blue on GitHub via [Issues](https://github.com/joealongi/bootstrap-blue/issues).
 
 ##### Acknowledgments
 
@@ -85,4 +85,4 @@ Having an issue with the template? Report bugs & issues with Blue on GitHub via 
 
 ##### License
 
-© 2022 Joe Alongi released via [MIT](https://opensource.org/licenses/MIT) license. Information on this license can be viewed as it applies to this repository on GitHub at [Blue License](https://github.com/heyitsjoealongi/blue/blob/master/LICENSE).
+© 2022 Joe Alongi released via [MIT](https://opensource.org/licenses/MIT) license. Information on this license can be viewed as it applies to this repository on GitHub at [Blue License](https://github.com/joealongi/blue/blob/master/LICENSE).
